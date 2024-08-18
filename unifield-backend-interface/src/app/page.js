@@ -1,11 +1,12 @@
 'use client'
 import BackendInterfaceLayout from '../components/BackendInterfaceLayout'
-import Dashboard from '../components/Dashboard'
+import DashboardAnalytics from '../components/DashboardAnalytics'
+import RetailerManagementPage from '../components/RetailerManagementPage'
 
 export default function Home() {
   return (
     <BackendInterfaceLayout>
-      <Dashboard />
+      <DashboardAnalytics />
     </BackendInterfaceLayout>
   )
 }
